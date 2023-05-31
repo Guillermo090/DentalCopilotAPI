@@ -4,10 +4,10 @@ from .base import *
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-# X_FRAME_OPTIONS = 'ALLOWALL'
-# XS_SHARING_ALLOWED_METHODS = ['POST','GET','OPTIONS', 'PUT', 'DELETE']
-# WSGI_APPLICATION = 'dental_copilot.wsgi.application'
-# CORS_ORIGIN_ALLOW_ALL = True
+X_FRAME_OPTIONS = 'ALLOWALL'
+XS_SHARING_ALLOWED_METHODS = ['POST','GET','OPTIONS', 'PUT', 'DELETE']
+WSGI_APPLICATION = 'dental_copilot.wsgi.application'
+CORS_ORIGIN_ALLOW_ALL = True
 
 #? database 
 DATABASES = {

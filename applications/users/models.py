@@ -11,8 +11,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     genero = models.CharField(max_length=1, blank=True)
     is_staff = models.BooleanField(default=False)
     
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username',]
+    USERNAME_FIELD = 'username'
+    # REQUIRED_FIELDS = ['username',]
     
     objects = UserManager()
     
